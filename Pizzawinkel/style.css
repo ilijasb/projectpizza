@@ -1,0 +1,57 @@
+button {
+  background-color: #222;
+  color: white;
+  padding: 14px 20px;
+  margin: 1px 0;
+  cursor: pointer;
+  width: 100%;
+  border-style: inherit;
+}
+
+label{
+	font-family: monospace;
+	font-size: 25px;
+	color: white;
+}
+form {
+  margin-top: 10em;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+ul{
+	color: white;
+	list-style-type: none;
+  	margin: 0;
+ 	padding: 25px 16px;
+ 	background-color: #222;
+ 	
+}
+
+li{
+	color: white;
+	display: inline;
+
+}
+
+li a:hover {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #111;
+}
+li a {
+  font-size: 2em;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
